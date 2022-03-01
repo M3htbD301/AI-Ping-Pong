@@ -28,18 +28,37 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
 
   </head>
-  <body background="">
+  <body background="ping-pong-table.jpg">
 <center>
-<div class="btn btn-primary heading" \>    
+<div class="btn btn-primary heading" >    
     <h2>AI PING PONG</h2>
-    <button class="btn btn-primary" data-toggle="modal" data-target="#mymodal">Instruction</button>
+    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Instruction</button>
 </div>
 <br><br>
-<button class="btn btn-danger" onclick="startGame()"></button>
+<button id="start_button" class="btn btn-danger" onclick="startGame()">Start Game</button>
+<br><br>
+<button class="btn btn-primary" onclick="restart()">Restart</button> <!--i gave it the class of btn btn-primary but its not blue-->
     <br>
     <h3 id="gameStatus"></h3>
     <br><br>
     <div id="canvas_div"></div>
+
+
+    <div id="myModal" class="modal fade ">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h4>Instructions</h4>
+          </div>
+          <div class="modal-body">hi
+          </div>
+        </div>
+      </div>
+    </div>
+    <h4 id="footer">
+      Made By: Mehtab Deol || Game Credit : Pong
+    </h4>
 </center>
   </body>
 </html>

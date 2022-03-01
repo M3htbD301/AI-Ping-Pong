@@ -9,3 +9,13 @@
     float:right;
     border:1px solid white;
 }
+#start_button{
+    margin-top:50px;
+}
+#footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color:blueviolet;
+    font-size: 20px;
+}
