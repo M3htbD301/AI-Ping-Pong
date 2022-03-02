@@ -19,3 +19,8 @@
     background-color:blueviolet;
     font-size: 20px;
 }
+canvas{
+background:white;
+border-radius:10px;
+border-color: black;   
+}
