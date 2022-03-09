@@ -1,4 +1,7 @@
-
+function preload() {
+  paddleSound=loadSound("ball_touch_paddel.wav")
+  paddleMiss=loadSound("missed.wav")
+}
 
 
 var paddle2 =10,paddle1=10;
@@ -216,4 +219,4 @@ function paddleInCanvas(){
  
   
 }
-
+}
